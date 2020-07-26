@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: #242424;
+}
+.navbar-custom {
+    background-color: #E50914;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:rgb(156, 4, 11);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.navbar-brand img{
+    padding-left: 0.5em;
+}
+.navbar-custom .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+.fa-bars{
+    color:rgb(128, 5, 11);
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    color: white;
+    background-color: none;
+}
+#admin, #logout{
+    padding-left: 1em;
+}
+#admin{
+    color: white;
+}
+#admin:hover{
+    text-shadow: 0 0 7px #fffcfc;
+}
+
+/* SIDE BAR CSS */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Behind the navbar */
+    padding-left: 0em !important;
+    padding: 42.02px 0 0; /* Height of navbar */
+    padding-left: 1em;
+    background-color:azure;
+    width: 200px;
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 0em;
+    height: calc(100vh - 42.02px);
+    overflow-x: hidden;
+    overflow-y: auto; /*Scrollable contents if viewport is shorter than content.*/ 
+}
+.sidebar li{
+    box-shadow: inset 0px -1px 2px #a3a3a3e8;
+}
+.sidebar a {
+    display: block;
+    color: rgb(34, 34, 34);
+    padding-left: 1em;
+    padding-right: 1em;
+    width: auto;
+}
+.sidebar a:hover{
+    color: white;
+    font-weight: bold;
+    background-color: #E50914;
+}
+
+a.nav-link.active {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: #E50914;
+}
+a.mItem, a.uItem{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: right;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-decoration-line: none;
+}
+.sidebar-sticky p{
+    font-size: 1em;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    margin-top: 1em;
+    width: fit-content;
+    margin-bottom: 0;
+    color: #333333b3;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* CONTENT CSS */
+div.content {
+    margin-left: 200px;
+    padding: 42.02px 0 0;
+}
+h1{
+    color: white;
+}
+
+.empty{
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+        height: 50%;
+        padding-top: 0;
+        position: relative;
+    }
+    .sidebar-sticky{
+        height: auto;
+    }
+    .sidebar a {
+        /* float: left; */
+        text-align: center;
+        float: none;
+    }
+    .sidebar-sticky br{
+        display: none;
+    }
+    .sidebar-sticky p{
+        position: relative;
+        text-align: center;
+    }
+    div.content {margin-left: 0;}
+
+    .navbar-custom .navbar-nav > li{
+        background-color: rgb(194, 5, 15);
+        box-shadow: inset -1px 1px 0px 0px black;
+    }
+    #logout{
+        color: rgb(131, 2, 9);
+    }
+}
+@media screen and (max-width: 576px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+@media screen and (max-width: 250px){
+    body{
+        min-width:250px;        /* Suppose minimum width is 250px */
+        width: auto !important;  /* Firefox will set width as auto */
+        width:250px;            /* Since IE6 ignores !important it will set width as 250px; */
+    }
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+body{
+  font-family: 'Poppins',sans-serif;
+  background-color: #242424;
+}
+/* div#load {
+    position: relative;
+    top: 2em;
+    width: 98.8%;
+} */
+/* Navigation CSS */
+
+.fa-shopping-cart{
+  font-size: 1.5em;
+
+  margin-right: 0.5em;
+}
+ul#cart2 {
+  min-width: 400px;
+  padding: 1em;
+}
+ul#cart2 {
+  min-width: 400px;
+  padding: 1em;
+}
+#cartCheck{
+  text-align: right;
+}
+.cartTotal{
+  color: #E50914;
+}
+#btnCheckout{
+  background-color: #E50914;
+  border: 1px solid #E50914;
+  font-weight: bold;
+}
+#btnCheckout:hover{
+  background-color: #c20000;
+  border: 1px solid #8b0000;
+  color: #490000;
+}
+#btnSearch{
+  background-color: #E50914;
+  border: 1px solid #E50914;
+  font-weight: bold;
+}
+#btnSearch:hover{
+  background-color: #c20000;
+  border: 1px solid #8b0000;
+  color: #490000;
+}
+
+#logout{
+  margin-right: 0em!important;
+  padding-right: 0em !important;
+  padding-left: 1em;
+}
+
+
+/* Carousel CSS */
+#carbtn{
+  margin-top: 0.7em;
+  background-color: #E50914;
+  border: 1px solid #E50914;
+}
+#carbtn:hover{
+  background-color: #c20000;
+  border: 1px solid #8b0000;
+  color: #490000;
+  font-weight: bold;
+}
+
+
+/* Login CSS */
+
+.form-signin{
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  padding-bottom: 0;
+  margin: 0 auto;
+
+}
+
+.form-signin .form-control{
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-signin .form-control:focus{ z-index: 2; outline: none;}
+
+.form-signin input[type="email"]{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"]{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin p{
+  margin-bottom: 0;
+}
+
+.form-signin .btn-primary{
+  margin-top: 1em;
+  background-color: #E50914;
+  border: 1px solid #E50914;
+  margin-bottom: 0;
+}
+
+.btn-primary{
+  background-color: #E50914;
+  border: 1px solid #E50914;
+}
+
+.btn-primary:hover{
+  background-color: #c20000;
+  border: 1px solid #8b0000;
+  color: #490000;
+  font-weight: bold;
+}
+
+.logstart{
+  display: -ms-flexbox;
+  display: -webkit-box;
+  color: white;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  background-color: transparent;
+}
+.logo{
+  margin-top: 8em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.alert{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.alert-danger i{
+  color: #A94442;
+}
+.alert-success i{
+  color: #3C763D;
+}
+.alert-info i{
+  color: #0C5460;
+}
+
+/* Register CSS */
+
+#jtable{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  border: none;
+}
+#jtable td{
+  border: none;
+  vertical-align: middle;
+}
+.jtname{
+  text-align: right;
+  color: white;
+  
+}
+
+
+caption{
+  color: white;
+  caption-side: top;
+}
+#pjoin{
+  font-size: 2.5em;
+  margin-left: 1.1em;
+  margin-top: 2em;
+}
+#join{
+  color: white;
+  
+}
+#name{
+  color: #E50914;
+}
+
+/* RED NAVIGATION BAR CSS */
+
+.navbar-custom {
+  background-color: #E50914;
+}
+
+/* Footer CSS */
+.col-md-3.footcol {
+  padding-top: 0.4em;
+  padding-bottom: 0;
+}
+.col-md-3.footcol p{
+  margin-bottom: 0%;
+}
+footer{
+  /* background-color: rgb(48, 48, 48); */
+  background-color: transparent;
+  color: #D5D5D5;
+}
+hr.light{
+  border-top: 1px solid #D5D5D5;
+  width: 75%;
+  margin-top: .4rem;
+  margin-bottom: 1rem;
+}
+hr.light-100{
+  border-top: 1px solid #D5D5D5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+h6{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media screen and (max-width: 992px) {
+
+  }
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 576px) {
+  
+}
+@media screen and (max-width: 222px){
+  body{
+      min-width:222px;        /* Suppose minimum width is 222px */
+      width: auto !important;  /* Firefox will set width as auto */
+      width:222px;            /* Since IE6 ignores !important it will set width as 222px; */
+  }
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
