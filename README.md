@@ -5,7 +5,7 @@ A movie streaming ecommerce website created using vanilla PHP, Javascript ans CS
 
 **Folders containing video files have not been uploaded which were placed under the folders NetMovie and NetVideo. The names of the movies were replaced with the ids of the movie and were stored in folders 480p, 720p and 1080p according to quality.**
 
-**For development server MAMP Pro was used to create a custom url 'http://dev.netscope.com' so it doesn't show 'http://localhost:_port'**
+**For development server MAMP Pro was used to create a custom url `http://dev.netscope.com` so it doesn't show `http://localhost:_port`**
 
 All login credentials are encrypted using md5. 
 
