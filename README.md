@@ -1,5 +1,5 @@
 # Description
-A movie streaming ecommerce website created using vanilla PHP, Javascript ans CSS (plus a little bootsrap 4). The website allows users to buy or rent movies according to the viewing quality[480p, 720p, 1080p] and _rent period (if rented)_. This was 
+A movie streaming ecommerce website created using vanilla PHP, Javascript ans CSS (plus a little bootsrap 4). The website allows users to buy or rent movies according to the viewing quality[480p, 720p, 1080p] and _rent period (if rented)_. This was created for a school project so had no intention to production deploy. Thought to upload it to github to help anyone who wants to build components simillar to this.
 
 ## Note:
 
@@ -11,7 +11,7 @@ All login credentials are encrypted using md5.
 
 The website has its own admin dashboard for admins to add/delete or change pricing of movies on the site as well as to interact with purchase verification and so on.
 
-For streaming VLC Streaming was initially used but due to low performance it was scrapped and used the regular videoplayback where the site calls for the location details. 
+For streaming VLC Streaming was initially used but due to low performance it was scrapped and used the regular videoplayback where the site calls for the location details. downloading is disabled using basic javascript functions and html5 but if you want to go the extra mile use [Mux](https://mux.com/for/php/) or [FFmpeg](https://ffmpeg.org/).
 
 ## API
 
