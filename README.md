@@ -11,7 +11,7 @@ All login credentials are encrypted using md5.
 
 The website has its own admin dashboard for admins to add/delete or change pricing of movies on the site as well as to interact with purchase verification and so on.
 
-For streaming VLC Streaming was initially used but due to low performance it was scrapped and used the regular videoplayback where the site calls for the location details. downloading is disabled using basic javascript functions and html5 but if you want to go the extra mile use [Mux](https://mux.com/for/php/) or [FFmpeg](https://ffmpeg.org/).
+For streaming VLC media players in-built Streaming feature was initially used but due to low performance it was scrapped and used the regular videoplayback where the site calls for the location details, if you want to go the extra mile use [Mux](https://mux.com/for/php/) or [FFmpeg](https://ffmpeg.org/). Downloading movies is disabled using basic javascript functions and html5.
 
 ## API
 
